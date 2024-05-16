@@ -11,7 +11,7 @@ function App() {
       <Hero />
       {/* <Market /> */}
       <WhyChooseUs />
-      {/* <Join /> */}
+      <Join />
     </>
   );
 }
