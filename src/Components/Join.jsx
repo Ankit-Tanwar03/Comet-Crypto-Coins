@@ -4,10 +4,10 @@ function Join() {
   return (
     <>
       <div
-        className="h-screen bg-gradient-to-b from-black to-slate-900  md:pt-24"
+        className="md:h-screen bg-gradient-to-b from-black to-slate-900 py-10 md:pt-24"
         id="join"
       >
-        <div className="h-full flex flex-col justify-center items-center">
+        <div className="h-full flex flex-col justify-start md:justify-center items-center">
           <div>
             <h1 className="text-white text-4xl sm:text-6xl text-center">
               JOIN US VIA<span className="text-lime-400 block">DISCORD</span>
