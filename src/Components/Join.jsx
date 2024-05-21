@@ -3,22 +3,25 @@ import React from "react";
 function Join() {
   return (
     <>
-      <div className="h-screen bg-gradient-to-b from-slate-800 to-black pt-24">
+      <div
+        className="h-screen bg-gradient-to-b from-black to-slate-900  md:pt-24"
+        id="join"
+      >
         <div className="h-full flex flex-col justify-center items-center">
           <div>
-            <h1 className="text-white text-6xl text-center">
+            <h1 className="text-white text-4xl sm:text-6xl text-center">
               JOIN US VIA<span className="text-lime-400 block">DISCORD</span>
             </h1>
-            <h3 className="text-lg text-white text-center pt-10">
+            <h3 className="mx-16 sm:mx-0 sm:text-lg text-white text-center pt-5 sm:pt-10">
               Invest and manage all your crypto at one place.
             </h3>
           </div>
-          <div className="pt-5">
-            <button className="px-8 py-4 bg-gradient-to-b from-lime-400 to-lime-950 text-white rounded-full text-2xl font-bold my-10 transition-all duration-300 ease-in-out hover:shadow-md hover:shadow-white hover:scale-105">
+          <div className="sm:pt-5">
+            <button className="px-8 py-4 bg-gradient-to-b from-lime-400 to-lime-950 text-white rounded-full text-lg sm:text-2xl font-bold my-10 transition-all duration-300 ease-in-out hover:shadow-md hover:shadow-white hover:scale-105">
               Join Via Discord
             </button>
           </div>
-          <div className="flex pt-10">
+          <div className="flex  sm:pt-10">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
