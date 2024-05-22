@@ -7,7 +7,7 @@ function WhyChooseUs() {
   return (
     <>
       <div
-        className="min-h-screen bg-gradient-to-b from-slate-900 to-black pt-24 pb-8"
+        className="min-h-screen bg-gradient-to-b from-slate-900 to-black pt-12 md:pt-24 pb-8"
         id="whyChooseUs"
       >
         <h1 className="text-white text-center text-4xl lg:text-6xl">
